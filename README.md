@@ -115,7 +115,7 @@ Plotting Taiwan!
 plot(twn)
 ```
 
-![](tw_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](tw_files/unnamed-chunk-3-1.png)
 
 Checking the centre of Taiwan
 -----------------------------
@@ -236,7 +236,7 @@ plot(twn)
 plot(twn[twn$ID_2 == 2, ], add = TRUE, col = 'Red')
 ```
 
-![](tw_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](tw_files/unnamed-chunk-6-1.png)
 
 ``` r
 a <- is.na(twn$NAME_2)
