@@ -1,19 +1,17 @@
 # GIS-in-R--GeoTaiwan
 
+GIS is used to develop and store geographic and attribute data. Geographic analysis which looks at spatial distributions of lands, people and resources and attempts to explain and predict.
 
+## Setup
 
 ``` r
-## Set ups
-
 x <- c("ggmap", "rgdal", "rgeos", "maptools", "dplyr", "tidyr", "tmap")
-
 lapply(x, library, character.only = TRUE)
 ```
 
-Load data
----------
+## Load data
 
-GIS datasets have 
+GIS datasets 
 
 ``` r
 twn <- readOGR(dsn = "C:/Users/USER/Desktop/Spatial task/TWN_adm/TWN_adm2.shp")
